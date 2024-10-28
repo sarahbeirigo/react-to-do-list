@@ -47,7 +47,9 @@ CSS
 
 ```
 /* SRC/INDEX.CSS */
+```
 
+```
 
 @TAILWIND BASE;
 
