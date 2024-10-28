@@ -1,8 +1,63 @@
-# React + Vite
+<h2 align="center">TO DO LIST 📝🎯✅</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# BIBLIOTECAS E FRAMEWORKS UTILIZADOS
 
-Currently, two official plugins are available:
+# REACT
+UMA BIBLIOTECA JAVASCRIPT PARA CONSTRUIR INTERFACES DE USUÁRIO.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+INSTALAÇÃO:
+
+```NPM INSTALL REACT REACT-DOM```
+
+# VITE
+
+UM BUNDLER DE APLICATIVOS QUE PROPORCIONA UM AMBIENTE DE DESENVOLVIMENTO RÁPIDO E UMA EXPERIÊNCIA DE BUILD OTIMIZADA.
+
+INSTALAÇÃO: 
+
+```NPM INSTALL VITE --SAVE-DEV```
+
+# TAILWIND CSS
+UM FRAMEWORK CSS UTILITÁRIO PARA CRIAR DESIGNS PERSONALIZADOS RAPIDAMENTE.
+
+INSTALAÇÃO:
+
+PRIMEIRO, INSTALE O TAILWIND CSS:
+
+```NPM INSTALL -D TAILWINDCSS POSTCSS AUTOPREFIXER```
+
+```NPX TAILWINDCSS INIT -P```
+
+EM SEGUIDA, CONFIGURE O ARQUIVO TAILWIND.CONFIG.JS E IMPORTE O TAILWIND NO SEU CSS:
+
+```// TAILWIND.CONFIG.JS```
+
+```
+MODULE.EXPORTS = {
+  CONTENT: [
+    "./SRC/**/*.{JS,JSX,TS,TSX}",
+  ],
+  THEME: {
+    EXTEND: {},
+  },
+  PLUGINS: [],
+}
+CSS
+```
+
+```
+/* SRC/INDEX.CSS */
+
+
+@TAILWIND BASE;
+
+@TAILWIND COMPONENTS;
+
+@TAILWIND UTILITIES;
+```
+# PROPTYPES
+UMA BIBLIOTECA PARA VALIDAÇÃO DE TIPOS DE PROPRIEDADES EM COMPONENTES REACT.
+
+INSTALAÇÃO:
+
+```NPM INSTALL PROP-TYPES```
